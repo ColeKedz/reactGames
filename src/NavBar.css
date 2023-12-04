@@ -1,0 +1,15 @@
+#navContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 5px 10px;
+}
+
+.navFonts{
+    color: white;
+    text-decoration: none;
+}
+
+#Github{
+    font-style: Collegiate; 
+}
+
