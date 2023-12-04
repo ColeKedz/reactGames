@@ -1,5 +1,4 @@
 import './NavBar.css'
-import GitHub_Logo from './GitHub_Logo.png'
 function NavBar() {
     let linkedinUrl = 'https://www.linkedin.com/in/cole-kedzierski';
     let githubUrl = 'https://github.com/ColeKedz';
