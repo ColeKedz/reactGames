@@ -1,15 +1,15 @@
-import './App.css';
+import './Header.css';
 
-function App() {
+function Header(props) {
   return (
     <div>
       <header className="App-header">
         <h1>
-          Welcome to Cole's React Sandbox!
+                  { props.title}
         </h1>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Header;
