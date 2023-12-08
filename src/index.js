@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
-import NavBar from './NavBar'
-
+import NavBar from './components/NavBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+        <Header title="Welcome to Cole's React.js Sandbox!" />
         <NavBar />
-        <App />
+        
   </React.StrictMode>
 );
 
