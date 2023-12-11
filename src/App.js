@@ -19,7 +19,7 @@ function App() {
                     <Link className='navItem' to="/reactGames"> Home </Link>
                     <Link className='navItem' to="/About"> About </Link>
                     <span ><a className='navItem' href={linkedinUrl} target='_blank' rel='noreferrer' >Linkedin</a></span>
-                    <span><a id='GitHub' className='navItem' href={githubUrl} target='_blank' rel='noreferrer'>GitHub</a></span>
+                    <span><a className='navItem' href={githubUrl} target='_blank' rel='noreferrer'>GitHub</a></span>
                     
                    
                 </nav>
