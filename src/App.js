@@ -3,7 +3,6 @@ import HomePage from './components/HomePage';
 import About from './components/About';
 import Header from './components/Header.css';
 import Media from './components/Media';
-
  
 function App() {
 
